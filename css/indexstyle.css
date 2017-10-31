@@ -8,4 +8,20 @@ table {
 th, td {
   text-align: left;
   padding: 15px;
+  border: 1px solid #ddd;
 }
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: blue;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+  
