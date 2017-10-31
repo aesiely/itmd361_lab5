@@ -11,9 +11,6 @@ th, td {
   border: 1px solid #ddd;
 }
 th {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  text-align: left;
   background-color: #4CAF50;
   color: blue;
 }
