@@ -4,28 +4,28 @@ body {
 }
 h1 {
   margin: -5px;
-  font-size: 1em;
+  font-size: 2.5em;
   color: red; 
   text-align: center;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
 #logo {
-  float: center;
+  position: absolute;
+    top: 0px;
+    right: 0px;
 }
 h1:hover {
-  background-color: #fdca00;
-}
-h2:hover {
   background-color: #fdca00;
 }
 h2 {
   font-family: 'Fascinate Inline', cursive;
   color: red;
-  margin-bottom: 1px;
   font-size: 32px;
+  padding-top: 65px;
 }
 #box1 {
+  margin-top: 5px;
   border-right: 10px;
   border-collapse: collapse;
   width: 100%
@@ -72,29 +72,22 @@ a {
 img {
 	width: 200px;
 	height: 150px;
-	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.4);
 	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
-	-webkit-transition: -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out; 
 }
 a:hover img {
-	-webkit-box-shadow: 6px 6px 6px rgba(0,0,0,.3);
 	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
 }
 a:hover #img1, a:focus #img1  {
-	-webkit-transform: scale(1.5) rotate(-3deg);
 	transform: scale(2) rotate(-5deg);
 }
 a:hover #img2, a:focus #img2  {
-	-webkit-transform: scale(1.5) rotate(-3deg);
 	transform: scale(2) rotate(-5deg);
 }
 a:hover #img3, a:focus #img3  {
-	-webkit-transform: scale(1.5) rotate(-3deg);
 	transform: scale(2) rotate(-5deg);
 }
 a:hover #img4, a:focus #img4  {
-	-webkit-transform: scale(1.5) rotate(-3deg);
 	transform: scale(2) rotate(-5deg);
 }
 
