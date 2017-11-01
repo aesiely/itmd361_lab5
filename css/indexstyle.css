@@ -9,11 +9,12 @@ h1 {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
+
 h1:hover {
-  background-color: #ddd;
+  background-color: #fdca00;
 }
 h2:hover {
-  background-color: #ddd;
+  background-color: #fdca00;
 }
 h2 {
   font-family: 'Fascinate Inline', cursive;
@@ -99,4 +100,16 @@ a:hover #img4, a:focus #img4  {
   color: red;
   font-weight: bold;
   font-size: 2em;
+}
+#mer {
+  background-color: #FAEBD7;
+}
+#ear {
+  background-color: #00FFFF;
+}
+#mar {
+  background-color: #D2691E;
+}
+#nep {
+  background-color: #6A5ACD;
 }
