@@ -4,7 +4,7 @@ body {
 }
 h1 {
   margin: -5px;
-  font-size: 2.5em;
+  font-size: 1em;
   color: red; 
   text-align: center;
   font-weight: bold;
@@ -13,7 +13,6 @@ h1 {
 #logo {
   float: top-right;
 }
- 
 h1:hover {
   background-color: #fdca00;
 }
@@ -51,7 +50,7 @@ h2 {
   background-color: #ddd;
 }
 #box2 {
-  margin-top: 85px;
+  margin-top: 20px;
   
 }
 ul {
